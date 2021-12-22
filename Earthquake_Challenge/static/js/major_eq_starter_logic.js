@@ -123,7 +123,7 @@ d3.json().then(function(data) {
 // 7. Creating a GeoJSON layer with the retrieved data that adds a circle to the map 
 // sets the style of the circle, and displays the magnitude and location of the earthquake
 //  after the marker has been created and styled.
-L.geoJson(, {
+// L.geoJson(, {
     
 });
 // 8. Add the major earthquakes layer to the map.
@@ -166,7 +166,7 @@ legend.onAdd = function() {
 
 
   // Use d3.json to make a call to get our Tectonic Plate geoJSON data.
-  d3.json().then(() {
+  // d3.json().then(() {
     
-  });
-});
+  // });
+// });
